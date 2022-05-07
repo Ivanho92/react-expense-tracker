@@ -7,11 +7,11 @@
   }
 
   .new-expense__control:first-child {
-    flex: 2 1 30rem;
+    flex: 2 1 20rem;
   }
 
   .new-expense__control {
-    flex: 1 1 15rem;
+    flex: 1 1 7.5rem;
   }
 
   .new-expense__control label {
