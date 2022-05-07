@@ -1,0 +1,28 @@
+.chart-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-bar__inner {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0 0 0 / 12.5%);
+    background-color: var(--color-light);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chart-bar__fill {
+    background-color: var(--color-primary-shade);
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+
+.chart-bar__label {
+    font-size: 0.5rem;
+    color: #000000cc;
+}
